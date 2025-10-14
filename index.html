@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de Tragos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🍸 Calculadora de Tragos</h1>
+
+    <label for="botella">Tipo de botella:</label>
+    <select id="botella"></select>
+
+    <label for="pesoActual">Peso actual (g):</label>
+    <input type="number" id="pesoActual" placeholder="Ej. 1250" />
+
+    <label for="tamTrago">Tamaño trago (mL):</label>
+    <input type="number" id="tamTrago" value="60" />
+
+    <button id="btnCalcular">Calcular</button>
+
+    <div id="resultado">
+      <p><strong>Peso del licor:</strong> <span id="pesoLicor">-</span> g</p>
+      <p><strong>Tragos decimales:</strong> <span id="tragosDecimales">-</span></p>
+      <p><strong>Tragos (fracción):</strong> <span id="tragosFraccion">-</span></p>
+    </div>
+
+    <h2>Historial</h2>
+    <ul id="historial"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
