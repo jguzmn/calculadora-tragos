@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario de Botella</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="botella-form.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 id="titulo">Nueva Botella</h1>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" />
+
+    <label for="pesovacio">Peso vacío (g):</label>
+    <input type="number" id="pesovacio" />
+
+    <label for="densidad">Densidad (g/mL):</label>
+    <input type="number" id="densidad" step="0.01" value="1" />
+
+    <button id="btnGuardar">💾 Guardar</button>
+    <button id="btnCancelar" style="background-color:#777;">❌ Cancelar</button>
+  </div>
+</body>
+</html>

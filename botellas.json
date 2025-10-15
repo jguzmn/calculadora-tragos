@@ -1,0 +1,5 @@
+[
+  { "nombre": "Ron Bacardi", "pesoVacio": 950, "densidad": 0.98 },
+  { "nombre": "Whisky Jack", "pesoVacio": 980, "densidad": 0.96 },
+  { "nombre": "Tequila Don Julio", "pesoVacio": 970, "densidad": 0.95 }
+]

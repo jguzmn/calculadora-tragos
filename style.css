@@ -1,0 +1,137 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h1::before {
+  content: "🍾 ";
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.actions button,
+.link-admin {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 15px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.actions button:hover,
+.link-admin:hover {
+  background-color: #005fa3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+th {
+  background: #f0f0f0;
+  font-weight: 600;
+}
+
+td {
+  vertical-align: middle;
+}
+
+/* Botones de acción más pequeños y sutiles */
+.btnEditar, .btnEliminar {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btnEditar {
+  color: #0078d7;
+}
+
+.btnEditar:hover {
+  background-color: rgba(0, 120, 215, 0.1);
+}
+
+.btnEliminar {
+  color: #d9534f;
+}
+
+.btnEliminar:hover {
+  background-color: rgba(217, 83, 79, 0.1);
+}
+
+/* Formularios */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+}
